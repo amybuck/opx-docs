@@ -1,4 +1,4 @@
-# Welcome to the OpenSwitch OPX project
+# opx-docs
 This OpenSwitch repo contains the manifest file for the repo tool used to pull down sources for the OpenSwitch OPX project. The OpenSwitch OPX project is the switch abstraction interface (SAI) host-adapter originally written by Dell, and contributed to the OpenSwitch project. It is assumed that you are familiar with Linux and have basic development knowledge.
 
 ## Read the documentation
