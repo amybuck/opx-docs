@@ -29,8 +29,7 @@ Updated environment: `sudo apt-get update`
         $ chmod a+x ~/bin/repo
     
 - apt-utils: `sudo apt-get install apt-utils` 
-- See [Docker environment setup guide](https://docs.docker.com/engine/installation/linux/ubuntulinux/
-    ) for complete information.
+- See [Docker environment setup guide](https://docs.docker.com/engine/installation/linux/ubuntulinux/) for complete information.
     
         sudo apt-get install docker.io
         sudo apt-get install docker-engine
