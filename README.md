@@ -51,26 +51,26 @@ Updated environment: `sudo apt-get update`
 ## Clone the source code
 To get the source files for the OpenSwitch OPX, run the commands in an empty directory (root directory). For example: _~/dev/openswitch/_:
 
-        $ repo init -u ssh://git@github.com/open-switch/opx-nas-manifest.git
-        $ repo sync
+    $ repo init -u ssh://git@github.com/open-switch/opx-nas-manifest.git
+    $ repo sync
         
 ## Build the code
 Setup your path to include _opx-build-tools/scripts_ folder (if you plan to run this command often, you could optionally add it to the `.bashrc`):
 
-       $ cd opx-build-tools/scripts
-       $ export PATH-=$PATH:$PWD
+    $ cd opx-build-tools/scripts
+    $ export PATH-=$PATH:$PWD
        
 ## OPX Docker environment
 To setup your Docker OPX image, use the script in the _opx-build-tools/scripts_ folder called `opx_setup`. This script builds a Docker container called `docker-opx` which will be used by the build scripts:
 
-        $ cd opx-build-tools/scripts/
-        $ opx_setup
+    $ cd opx-build-tools/scripts/
+    $ opx_setup
         
 ## Test your environment
 You can run `opx_build` in the _opx-logging_ directory (opx-logging repo):
 
-        $ cd opx-logging
-        $ opx_build -- clean binary
+    $ cd opx-logging
+    $ opx_build -- clean binary
         
 ## Build one repository
 See the corresponding README.md file associated with the repo for the specific build commands, along with package dependencies.
@@ -78,7 +78,7 @@ See the corresponding README.md file associated with the repo for the specific b
 ## Build all repositories
 Issue the `opx_build_all` command from the root directory to build all repos and create packages in the same root directory.
 
-        $ opx_build_all
+    $ opx_build_all
         
 ## Installation
 Once all of the repos have been built, you can install the created ONIE Debian x86_64 image. You can then install all of the build packages, along with other Debian files you downloaded earlier in the root directory.
